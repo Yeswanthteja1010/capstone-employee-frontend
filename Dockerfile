@@ -1,5 +1,7 @@
 # Stage 1: Build Angular App
-FROM node:18.19 AS builder
+#FROM node:18.19 AS builder
+FROM public.ecr.aws/docker/library/node:18.19 AS builder
+
 WORKDIR /app
 
 COPY package*.json ./
