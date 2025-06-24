@@ -2,8 +2,10 @@ footer {
   display: flex;
   /* position: absolute;
     bottom: 0; */
-  background-color: #0d6efd;
-  color: white;
+  #background-color: #0d6efd;
+  #color: white;
+  background-color: #DA48DF;
+  color: #FFFDD0;
   width: 100%;
   align-items: center;
   justify-content: center;
