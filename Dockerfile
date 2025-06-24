@@ -14,8 +14,8 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Serve with Nginx
-FROM nginx:alpine
-
+#FROM nginx:alpine
+FROM public.ecr.aws/docker/library/nginx:alpine
 # Copy Angular dist files from builder
 COPY --from=builder /app/dist/employee-rest-frontend /usr/share/nginx/html
 
